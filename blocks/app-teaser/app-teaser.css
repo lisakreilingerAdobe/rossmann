@@ -1,0 +1,78 @@
+.app-teaser > ul {
+  list-style: none;
+  margin: 0;
+  padding: 16px 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media (min-width: 900px) {
+  .app-teaser > ul {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+  }
+}
+
+.app-teaser > ul > li {
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 0;
+}
+
+.app-teaser .app-teaser-image {
+  line-height: 0;
+}
+
+.app-teaser .app-teaser-image img {
+  width: 100%;
+  aspect-ratio: 439 / 300;
+  object-fit: cover;
+}
+
+.app-teaser .app-teaser-body {
+  padding: 8px 0 0;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.app-teaser .app-teaser-body h3 {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0 0 8px;
+  color: var(--text-color);
+}
+
+.app-teaser .app-teaser-body p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+  margin: 0 0 16px;
+}
+
+.app-teaser .app-teaser-body p:last-child {
+  margin-top: auto;
+  padding-top: 8px;
+}
+
+.app-teaser .app-teaser-body a {
+  display: inline-block;
+  padding: 10px 40px;
+  border: 2px solid #8f8f8f;
+  border-radius: 4px;
+  color: var(--text-color);
+  font-size: 16px;
+  text-decoration: none;
+  background: var(--background-color);
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.app-teaser .app-teaser-body a:hover {
+  border-color: var(--text-color);
+  text-decoration: none;
+}
