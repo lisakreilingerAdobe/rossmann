@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #c3002d;
+      }
+    </style>
+  </defs>
+  <g>
+    <g id="Ebene_1">
+      <ellipse class="cls-1" cx="12" cy="12" rx="11.9" ry="12"></ellipse>
+      <path class="cls-2" d="M19,15c-.1,2.5-1.5,4-4.1,4.1h-5.8c-2.5-.1-4-1.5-4.1-4.1v-5.8c0-2.5,1.5-4,4.1-4.1h5.8c2.5,0,4,1.5,4.1,4.1v5.8Z"></path>
+      <path class="cls-1" d="M14.9,6.4h-5.6c-1.9,0-2.8,1-2.9,2.9v5.6c0,1.9,1,2.8,2.9,2.9h5.6c1.9-.1,2.8-1,2.9-2.9v-5.6c-.2-1.9-1-2.8-2.9-2.9Z"></path>
+      <path class="cls-2" d="M12,15.6c-2,0-3.6-1.6-3.6-3.6s1.6-3.6,3.6-3.6,3.6,1.6,3.6,3.6-1.6,3.6-3.6,3.6Z"></path>
+      <circle class="cls-2" cx="15.7" cy="8.3" r=".8"></circle>
+      <circle class="cls-1" cx="12" cy="12" r="2.3"></circle>
+    </g>
+  </g>
+</svg>
